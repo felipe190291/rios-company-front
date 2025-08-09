@@ -1,40 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Rios Company - Frontend
 
-## Getting Started
+Este es el frontend de Rios Company, construido con Next.js y TypeScript.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Framework: Next.js 13+ con Pages Router
+- Lenguaje: TypeScript
+- Estilos: CSS Modules
+- Tipografía: Geist (optimizada con `next/font`)
+
+## 🛠️ Requisitos Previos
+
+- Node.js 18.0.0 o superior
+- npm, yarn, o pnpm
+
+## 🚀 Empezando
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/felipe190291/rios-company-front.git
+   cd rios-company-p
+   ```
+
+2. **Instalar dependencias**
+   ```bash
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
+   ```
+
+3. **Iniciar el servidor de desarrollo**
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   # o
+   pnpm dev
+   ```
+
+4. **Abrir en el navegador**
+   Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
+
+## 📁 Estructura del Proyecto
+
+```
+rios-company-p/
+├── pages/           # Rutas de la aplicación
+├── public/          # Archivos estáticos
+├── styles/          # Estilos globales
+├── .gitignore
+├── next.config.ts   # Configuración de Next.js
+├── package.json
+└── tsconfig.json   # Configuración de TypeScript
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Comandos Útiles
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm start` - Inicia el servidor de producción (después de hacer build)
+- `npm run lint` - Ejecuta el linter
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🌐 Despliegue
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+La forma más sencilla de desplegar tu aplicación Next.js es usando [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/pages/building-your-application/deploying) para más detalles.
 
-## Learn More
+## 📝 Licencia
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 🤝 Contribuir
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir qué te gustaría cambiar.
